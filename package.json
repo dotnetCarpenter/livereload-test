@@ -5,7 +5,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "ecstatic root",
-    "live": "livereload root/css -d"
+    "live": "livereload root/css -d",
+    "testlivereload": "npm run server & npm run live"
   },
   "author": "",
   "license": "ISC",
