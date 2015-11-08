@@ -5,13 +5,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "ecstatic root",
-    "live": "livereload root/css -d",
+    "live": "livereload root/css",
     "testlivereload": "npm run server & npm run live"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "ecstatic": "^1.2.0",
-    "livereload": "^0.4.0"
+    "livereload": "^0.3.7"
   }
 }
